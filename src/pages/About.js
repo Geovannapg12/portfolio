@@ -22,7 +22,7 @@ class About extends Component{
             <div id='about-body'>
               <h2 id='title'> About Me</h2>
               <p>San Diego based Junior Full Stack Web Developer eager to learn with strong attention to detail and passionate about clean and concise code to support accessible user experiences. I started my journey as a developer in 2022 and I am enthusiastic to keep learning and keep building my skills.</p>
-              <h2>Skill Stack</h2>
+              {/* <h2 className='skill-stack'>Skill Stack</h2> */}
             </div>
             <div id='future-image'>
               <img id='pic-of-me' alt='Geo Perez' src={Geo}/>
@@ -30,29 +30,51 @@ class About extends Component{
             </div>
           </div>
         </div>
-        <div className="icon">
-                  <SiJavascript id='symbol' />
-                    <label>JavaScript</label>
-                  </div>
-                  <div className="icon">
-                <SiRubyonrails id='symbol' />
-                  <label>Ruby On Rails</label>
-                </div>
-                <div className='icon'> 
-                 <DiRuby id='symbol' />
-                 <label> Ruby</label>
-                </div>
-                <div className='icon'>
-                  <FaReact/>
-                  <label> React</label>
-                </div>
-                <div className='icons'>
-                <TiHtml5 id='symbol'/>
+      {/* <div className='s-stack'> */}
+        <div className='container'>
+        <h2 className='skill-stack'>Skill Stack</h2>
+        <div id='ss-body'>
+          <div id='lang-container'>
+
+
+            <div id='languages'>
+        <div className='logo'>
+          <SiJavascript id='icons'/>
+          <label>SiJavascript</label>
+        </div>
+
+        <div className='logo'>
+            <BiGitBranch id='icons'/>
+            <label> Git</label>
+        </div>
+
+        <div className='logo'>
+            <FaReact id='icons'/>
+            <label> React</label>
+        </div>
+
+        <div className='logo'>
+            <DiRuby id='icons'/>
+            <label> Ruby</label>
+        </div>
+
+        <div className='logo'/>
+        <SiRubyonrails id='icons'/>
+        <label> Ruby on Rails</label>
+        </div>
+            
+            <div className='logo'>
+                <TiHtml5 id='icons'/>
                 <label> HTML</label>
 
-                </div>
+            </div>
 
-                
+
+          </div>
+          
+        </div>
+        </div>
+      {/* </div>   */}
         </>
       )
     }
