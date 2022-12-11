@@ -10,7 +10,9 @@ class Contact extends Component{
        
         <>
        <h2>Contact Me</h2>
-       <p> Conctact form here</p>
+ 
+
+
         
         </>
       )
