@@ -30,52 +30,42 @@ class About extends Component{
             </div>
           </div>
         </div>
-      {/* <div className='s-stack'> */}
+        
         <div className='container'>
         <h2 className='skill-stack'>Skill Stack</h2>
-        <div id='ss-body'>
-          <div id='lang-container'>
-
-
-            <div id='languages'>
-        <div className='logo'>
-          <SiJavascript id='icons'/>
+          
+        <div>
+          <SiJavascript/>
           <label>SiJavascript</label>
         </div>
 
-        <div className='logo'>
-            <BiGitBranch id='icons'/>
+         <div>
+            <BiGitBranch/>
             <label> Git</label>
-        </div>
+         </div>
 
-        <div className='logo'>
-            <FaReact id='icons'/>
+          <div>
+            <FaReact/>
             <label> React</label>
-        </div>
+          </div>
 
-        <div className='logo'>
-            <DiRuby id='icons'/>
+        <div>
+            <DiRuby/>
             <label> Ruby</label>
         </div>
 
-        <div className='logo'/>
-        <SiRubyonrails id='icons'/>
+        <div>
+        <SiRubyonrails/>
         <label> Ruby on Rails</label>
         </div>
             
-            <div className='logo'>
-                <TiHtml5 id='icons'/>
+            <div>
+                <TiHtml5/>
                 <label> HTML</label>
-
-            </div>
-
-
-          </div>
-          
+                </div>
+       
         </div>
-        </div>
-      {/* </div>   */}
-        </>
+   </>
       )
     }
   }
